@@ -1,0 +1,11 @@
+.banner-text {
+  .my-breadcrumb {
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: var(--ra-color-white);
+
+    @include mediaQueries(large) {
+      font-size: 2.5rem;
+    }
+  }
+}
